@@ -12,10 +12,10 @@ The project develops and evaluates a unified simulation framework for comparing 
 
 The following designs are included in this repository:
 
-- **TEPI** — Toxicity and Efficacy Probability Interval
-- **STEIN** — Simple Toxicity and Efficacy Interval
-- **BOIN12** — Bayesian Optimal Interval Phase I/II
-- **RWR** — Random Walk Rule comparator
+- **TEPI** - Toxicity and Efficacy Probability Interval
+- **STEIN** - Simple Toxicity and Efficacy Interval
+- **BOIN12** - Bayesian Optimal Interval Phase I/II
+- **RWR** - Random Walk Rule comparator
 
 ## Outcomes
 
@@ -36,7 +36,7 @@ The simulation study is based on benchmark scenarios motivated by the **LORDs** 
 ## Repository structure
 
 ```text
-.
+
 ├── SRC/
 │   ├── simulation-tepi_stein_rwr.R
 │   ├── simulation-boin12.R
@@ -46,3 +46,5 @@ The simulation study is based on benchmark scenarios motivated by the **LORDs** 
 │   └── figures/
 |   └── Simulated Data/
 └── README.Rmd
+
+```
