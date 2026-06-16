@@ -1211,19 +1211,34 @@ example_curves_assisted <- example_curves_assisted %>%
 p_example_curves_assisted <- ggplot() +
   geom_line(
     data = subset(example_curves_assisted, method %in% c("Truth", "Logit GLM", "Probit GLM", "Firth logit")),
-    aes(x = dose_log, y = success_hat, colour = method, group = method),
+    aes(
+      x = dose_log,
+      y = success_hat,
+      colour = method,
+      group = interaction(method, design)
+    ),
     linewidth = 0.8,
     na.rm = TRUE
   ) +
   geom_point(
     data = subset(example_curves_assisted, method %in% c("Truth", "Logit GLM", "Probit GLM", "Firth logit")),
-    aes(x = dose_log, y = success_hat, colour = method, group = method),
+    aes(
+      x = dose_log,
+      y = success_hat,
+      colour = method,
+      group = interaction(method, design)
+    ),
     size = 1.1,
     na.rm = TRUE
   ) +
   geom_smooth(
     data = subset(example_curves_assisted, method == "Empirical" & !is.na(success_hat)),
-    aes(x = dose_log, y = success_hat, colour = method, group = method),
+    aes(
+      x = dose_log,
+      y = success_hat,
+      colour = method,
+      group = interaction(method, design)
+    ),
     method = "loess",
     span = 0.9,
     se = FALSE,
@@ -1232,7 +1247,12 @@ p_example_curves_assisted <- ggplot() +
   ) +
   geom_point(
     data = subset(example_curves_assisted, method == "Empirical"),
-    aes(x = dose_log, y = success_hat, colour = method, group = method),
+    aes(
+      x = dose_log,
+      y = success_hat,
+      colour = method,
+      group = interaction(method, design)
+    ),
     size = 1.1,
     na.rm = TRUE
   ) +
