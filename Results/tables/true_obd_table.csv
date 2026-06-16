@@ -1,0 +1,5 @@
+"scenario","scenario_label","true_obd_log"
+"A","A (Narrow)",2.75
+"B","B (Wide)",2.04
+"C","C (Safe)",6.03
+"D","D (Unsafe)",-1.8

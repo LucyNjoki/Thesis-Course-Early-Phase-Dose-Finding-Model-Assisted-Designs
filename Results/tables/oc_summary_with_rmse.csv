@@ -1,0 +1,49 @@
+"design","scenario","dgp","mean_bias_idx","rmse_idx","mean_bias_log","rmse_log"
+"BOIN12","A","Base case: logit/logit",-3.215,3.31104213201826,-3.1536,3.26090751172124
+"BOIN12","A","Misspecification 1: probit/probit",-3.395,3.45933519624797,-3.34566,3.41474081007622
+"BOIN12","A","Misspecification 2: quadratic efficacy + logistic toxicity",-3.215,3.31104213201826,-3.1536,3.26090751172124
+"BOIN12","B","Base case: logit/logit",-1.897,1.92119754320059,-2.15155,2.17976019323227
+"BOIN12","B","Misspecification 1: probit/probit",-1.976,1.981918262694,-2.2424,2.2492967789956
+"BOIN12","B","Misspecification 2: quadratic efficacy + logistic toxicity",-1.895,1.92067696398952,-2.14935,2.17918482465348
+"BOIN12","C","Base case: logit/logit",-2.869,2.95719461652425,-2.24929,2.30321221340979
+"BOIN12","C","Misspecification 1: probit/probit",-2.932,2.98093944923408,-2.29307,2.32292244812435
+"BOIN12","C","Misspecification 2: quadratic efficacy + logistic toxicity",-2.869,2.95719461652425,-2.24929,2.30321221340979
+"BOIN12","D","Base case: logit/logit",0.166,0.407430975749267,0.76102,0.842266822331261
+"BOIN12","D","Misspecification 1: probit/probit",0.031,0.17606816861659,0.63007,0.652113410381967
+"BOIN12","D","Misspecification 2: quadratic efficacy + logistic toxicity",0.166,0.407430975749267,0.76102,0.842266822331261
+"RWR","A","Base case: logit/logit",-4,4,-3.95,3.95
+"RWR","A","Misspecification 1: probit/probit",-4,4,-3.95,3.95
+"RWR","A","Misspecification 2: quadratic efficacy + logistic toxicity",-4,4,-3.95,3.95
+"RWR","B","Base case: logit/logit",-3,3,-3.24,3.24
+"RWR","B","Misspecification 1: probit/probit",-3,3,-3.24,3.24
+"RWR","B","Misspecification 2: quadratic efficacy + logistic toxicity",-3,3,-3.24,3.24
+"RWR","C","Base case: logit/logit",-8,8,-7.23,7.23
+"RWR","C","Misspecification 1: probit/probit",-8,8,-7.23,7.23
+"RWR","C","Misspecification 2: quadratic efficacy + logistic toxicity",-8,8,-7.23,7.23
+"RWR","D","Base case: logit/logit",0,0,0.6,0.6
+"RWR","D","Misspecification 1: probit/probit",0,0,0.6,0.6
+"RWR","D","Misspecification 2: quadratic efficacy + logistic toxicity",0,0,0.6,0.6
+"STEIN","A","Base case: logit/logit",-3.37,3.45224564595279,-3.31244,3.40327624503213
+"STEIN","A","Misspecification 1: probit/probit",-3.482,3.54090383941727,-3.43324,3.49587345308723
+"STEIN","A","Misspecification 2: quadratic efficacy + logistic toxicity",-3.37,3.45224564595279,-3.31244,3.40327624503213
+"STEIN","B","Base case: logit/logit",-1.892,1.9172897537931,-2.1458,2.17528434922885
+"STEIN","B","Misspecification 1: probit/probit",-1.976,1.981918262694,-2.2424,2.2492967789956
+"STEIN","B","Misspecification 2: quadratic efficacy + logistic toxicity",-1.89,1.91676811325731,-2.1436,2.1747077964637
+"STEIN","C","Base case: logit/logit",-3.038,3.12985622672991,-2.36599,2.42245926694341
+"STEIN","C","Misspecification 1: probit/probit",-3.076,3.13432608386556,-2.39243,2.42821022566004
+"STEIN","C","Misspecification 2: quadratic efficacy + logistic toxicity",-3.038,3.12985622672991,-2.36599,2.42245926694341
+"STEIN","D","Base case: logit/logit",0.074,0.272029410174709,0.67178,0.718166136767809
+"STEIN","D","Misspecification 1: probit/probit",0.027,0.16431676725155,0.62619,0.645625510648394
+"STEIN","D","Misspecification 2: quadratic efficacy + logistic toxicity",0.074,0.272029410174709,0.67178,0.718166136767809
+"TEPI","A","Base case: logit/logit",-2.172,2.52942681254074,-2.04309,2.45214707960187
+"TEPI","A","Misspecification 1: probit/probit",-2.681,2.83213700233587,-2.58252,2.76387904945206
+"TEPI","A","Misspecification 2: quadratic efficacy + logistic toxicity",-2.177,2.52566822841006,-2.04655,2.44993757063318
+"TEPI","B","Base case: logit/logit",-1.538,1.62665300540712,-1.73835,1.84068288958202
+"TEPI","B","Misspecification 1: probit/probit",-1.766,1.8160396471443,-2.0009,2.05928409890428
+"TEPI","B","Misspecification 2: quadratic efficacy + logistic toxicity",-1.473,1.62141913150178,-1.67046,1.83060312465592
+"TEPI","C","Base case: logit/logit",-2.098,2.38369461131245,-1.71875,1.89436076289602
+"TEPI","C","Misspecification 1: probit/probit",-2.398,2.53732142228768,-1.92335,2.00728266569509
+"TEPI","C","Misspecification 2: quadratic efficacy + logistic toxicity",-2.116,2.39666434863124,-1.73122,1.90390136299127
+"TEPI","D","Base case: logit/logit",0.299,0.548634668973808,0.89021,0.996089202832758
+"TEPI","D","Misspecification 1: probit/probit",0.21,0.46475800154489,0.80424,0.900285954572213
+"TEPI","D","Misspecification 2: quadratic efficacy + logistic toxicity",0.299,0.548634668973808,0.89021,0.996089202832758

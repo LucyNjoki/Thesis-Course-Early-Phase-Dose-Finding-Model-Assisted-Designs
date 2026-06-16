@@ -1,0 +1,5 @@
+"design","A | Base case: logit/logit","A | Misspecification 1: probit/probit","A | Misspecification 2: quadratic efficacy + logistic toxicity","B | Base case: logit/logit","B | Misspecification 1: probit/probit","B | Misspecification 2: quadratic efficacy + logistic toxicity","C | Base case: logit/logit","C | Misspecification 1: probit/probit","C | Misspecification 2: quadratic efficacy + logistic toxicity","D | Base case: logit/logit","D | Misspecification 1: probit/probit","D | Misspecification 2: quadratic efficacy + logistic toxicity"
+"BOIN12",-1.2,-1.2,-1.2,-0.23,-0.23,-0.23,3.69,3.69,3.69,-1.2,-1.2,-1.2
+"RWR",-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2
+"STEIN",-1.2,-1.2,-1.2,-0.23,-0.23,-0.23,3.69,3.69,3.69,-1.2,-1.2,-1.2
+"TEPI",0.92,-0.23,0.92,-0.23,-0.23,-0.23,4.38,4.38,4.38,-1.2,-1.2,-1.2

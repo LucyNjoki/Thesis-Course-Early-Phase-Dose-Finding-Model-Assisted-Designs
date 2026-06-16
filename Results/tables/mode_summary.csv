@@ -1,0 +1,49 @@
+"design","scenario","dgp","mode_selected_log","true_obd_log","mode_minus_true_obd","n_trials"
+"BOIN12","A","Base case: logit/logit",-1.2,2.75,-3.95,1000
+"BOIN12","A","Misspecification 1: probit/probit",-1.2,2.75,-3.95,1000
+"BOIN12","A","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,2.75,-3.95,1000
+"BOIN12","B","Base case: logit/logit",-0.23,2.04,-2.27,1000
+"BOIN12","B","Misspecification 1: probit/probit",-0.23,2.04,-2.27,1000
+"BOIN12","B","Misspecification 2: quadratic efficacy + logistic toxicity",-0.23,2.04,-2.27,1000
+"BOIN12","C","Base case: logit/logit",3.69,6.03,-2.34,1000
+"BOIN12","C","Misspecification 1: probit/probit",3.69,6.03,-2.34,1000
+"BOIN12","C","Misspecification 2: quadratic efficacy + logistic toxicity",3.69,6.03,-2.34,1000
+"BOIN12","D","Base case: logit/logit",-1.2,-1.8,0.6,1000
+"BOIN12","D","Misspecification 1: probit/probit",-1.2,-1.8,0.6,1000
+"BOIN12","D","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,-1.8,0.6,1000
+"RWR","A","Base case: logit/logit",-1.2,2.75,-3.95,1000
+"RWR","A","Misspecification 1: probit/probit",-1.2,2.75,-3.95,1000
+"RWR","A","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,2.75,-3.95,1000
+"RWR","B","Base case: logit/logit",-1.2,2.04,-3.24,1000
+"RWR","B","Misspecification 1: probit/probit",-1.2,2.04,-3.24,1000
+"RWR","B","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,2.04,-3.24,1000
+"RWR","C","Base case: logit/logit",-1.2,6.03,-7.23,1000
+"RWR","C","Misspecification 1: probit/probit",-1.2,6.03,-7.23,1000
+"RWR","C","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,6.03,-7.23,1000
+"RWR","D","Base case: logit/logit",-1.2,-1.8,0.6,1000
+"RWR","D","Misspecification 1: probit/probit",-1.2,-1.8,0.6,1000
+"RWR","D","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,-1.8,0.6,1000
+"STEIN","A","Base case: logit/logit",-1.2,2.75,-3.95,1000
+"STEIN","A","Misspecification 1: probit/probit",-1.2,2.75,-3.95,1000
+"STEIN","A","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,2.75,-3.95,1000
+"STEIN","B","Base case: logit/logit",-0.23,2.04,-2.27,1000
+"STEIN","B","Misspecification 1: probit/probit",-0.23,2.04,-2.27,1000
+"STEIN","B","Misspecification 2: quadratic efficacy + logistic toxicity",-0.23,2.04,-2.27,1000
+"STEIN","C","Base case: logit/logit",3.69,6.03,-2.34,1000
+"STEIN","C","Misspecification 1: probit/probit",3.69,6.03,-2.34,1000
+"STEIN","C","Misspecification 2: quadratic efficacy + logistic toxicity",3.69,6.03,-2.34,1000
+"STEIN","D","Base case: logit/logit",-1.2,-1.8,0.6,1000
+"STEIN","D","Misspecification 1: probit/probit",-1.2,-1.8,0.6,1000
+"STEIN","D","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,-1.8,0.6,1000
+"TEPI","A","Base case: logit/logit",0.92,2.75,-1.83,1000
+"TEPI","A","Misspecification 1: probit/probit",-0.23,2.75,-2.98,1000
+"TEPI","A","Misspecification 2: quadratic efficacy + logistic toxicity",0.92,2.75,-1.83,1000
+"TEPI","B","Base case: logit/logit",-0.23,2.04,-2.27,1000
+"TEPI","B","Misspecification 1: probit/probit",-0.23,2.04,-2.27,1000
+"TEPI","B","Misspecification 2: quadratic efficacy + logistic toxicity",-0.23,2.04,-2.27,1000
+"TEPI","C","Base case: logit/logit",4.38,6.03,-1.65,1000
+"TEPI","C","Misspecification 1: probit/probit",4.38,6.03,-1.65,1000
+"TEPI","C","Misspecification 2: quadratic efficacy + logistic toxicity",4.38,6.03,-1.65,1000
+"TEPI","D","Base case: logit/logit",-1.2,-1.8,0.6,1000
+"TEPI","D","Misspecification 1: probit/probit",-1.2,-1.8,0.6,1000
+"TEPI","D","Misspecification 2: quadratic efficacy + logistic toxicity",-1.2,-1.8,0.6,1000
